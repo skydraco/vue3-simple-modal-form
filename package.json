@@ -17,6 +17,12 @@
     "build": "vite build",
     "serve": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skydraco/vue3-simple-modal-form.git"
+  },
+  "author": "Denis",
+  "license": "ISC",
   "dependencies": {
     
   },
