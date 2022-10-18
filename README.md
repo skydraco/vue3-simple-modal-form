@@ -30,7 +30,7 @@ const store = useStore();
 Import modal form states:
 ```js
 import { createStore } from 'vuex';
-import SimpleModalStore from './storage';
+import SimpleModalStore from 'vue3-simple-modal-form/dist/storage';
 
 const store = createStore({
     modules: {

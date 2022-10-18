@@ -24,6 +24,9 @@ export default defineConfig({
         globals: {
           vue: 'Vue',
         },
+        assetFileNames: (assetInfo) => {
+          return `css/[name][extname]`;
+        },
       },
     },
   },

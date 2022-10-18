@@ -1,17 +1,13 @@
 {
   "name": "vue3-simple-modal-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": "./dist/vue3-simple-modal.umd.js",
+  "module": "./dist/vue3-simple-modal.es.js",
+  "style": "./dist/css/style.css",
+  "storage": "./dist/storage/index.js",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-simple-modal.umd.js",
-  "module": "./dist/vue3-simple-modal.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/vue3-simple-modal.es.js",
-      "require": "./dist/vue3-simple-modal.umd.js"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

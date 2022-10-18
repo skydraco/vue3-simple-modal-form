@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <SimpleModal>
+    <SimpleModal :window-small="false">
       <div class="my-class">
         Hellow, world!
       </div>
