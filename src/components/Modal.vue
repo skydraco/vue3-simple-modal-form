@@ -1,6 +1,6 @@
 <template>
     <div :class="['modal', { modal__open : enabled }]" @click="hideModal">
-        <div class="modal__container uk-container uk-container-small" aria-modal>
+        <div class="modal__container uk-container uk-container-small" ref-modal>
             <div :class="['modal__content', {'modal__content_sm' : windowSmall}]">
                 <div class="modal__close" @click="hideModal($event, true)">
                     <SvgClose viewBox="0 0 20 20" />
@@ -28,7 +28,7 @@ const store = useStore();
 const enabled = computed(() => store.state.modal.name);
 
 function hideModal(prop, force = false) {
-    if (!prop.target.closest('[aria-modal]') || force) {
+    if (!prop.target.closest('[ref-modal]') || force) {
         store.commit('modal/CALL_MODAL', false);
     }
 }

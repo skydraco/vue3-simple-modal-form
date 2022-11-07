@@ -1,6 +1,6 @@
 {
   "name": "vue3-simple-modal-form",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/vue3-simple-modal.umd.js",
   "module": "./dist/vue3-simple-modal.es.js",
   "style": "./dist/css/style.css",
@@ -19,9 +19,7 @@
   },
   "author": "Denis",
   "license": "ISC",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
     "sass": "^1.55.0",
