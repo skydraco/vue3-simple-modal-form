@@ -1,15 +1,14 @@
 
 # Simple Modal Form
 
-A simple modal form based on Vue 3 and Vuex 4 for adding custom content
-
+Simple modal form based on Vue 3 and Vuex 4 for adding custom content
 
 ## Installation
 
 Install @ubrand/simple-modal-form-vue3 with npm
 
 ```bash
-  npm install@ubrand/simple-modal-form-vue3
+  npm install @ubrand/simple-modal-form-vue3
 ```
 or using yarn
 ```bash
