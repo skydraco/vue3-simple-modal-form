@@ -16,7 +16,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.js'),
       name: 'SimpleModal',
-      fileName: (format) => `vue3-simple-modal.${format}.js`,
+      fileName: (format) => `simple-modal-form-vue3.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],

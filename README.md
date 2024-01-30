@@ -1,27 +1,27 @@
 
-# Simple modal form
+# Simple Modal Form
 
-Simple modal window based on Vue 3 and Vuex 4 for adding custom content
+A simple modal form based on Vue 3 and Vuex 4 for adding custom content
 
 
 ## Installation
 
-Install vue3-simple-modal-form with npm
+Install @ubrand/simple-modal-form-vue3 with npm
 
 ```bash
-  npm install vue3-simple-modal-form
+  npm install@ubrand/simple-modal-form-vue3
 ```
 or using yarn
 ```bash
- yarn add vue3-simple-modal-form
+ yarn add @ubrand/simple-modal-form-vue3
 ```
     
 ### Browser
 Include the script file, e.g.:
 ### Module
 ```js
-import { SimpleModal } from 'vue3-simple-modal-form';
-import 'vue3-simple-modal-form/dist/style.css';
+import { SimpleModal } from '@ubrand/simple-modal-form-vue3';
+import '@ubrand/simple-modal-form-vue3/dist/style.css';
 import { useStore } from 'vuex'
 
 const store = useStore();
@@ -30,7 +30,7 @@ const store = useStore();
 Import modal form states:
 ```js
 import { createStore } from 'vuex';
-import SimpleModalStore from 'vue3-simple-modal-form/dist/storage';
+import SimpleModalStore from '@ubrand/simple-modal-form-vue3/dist/storage';
 
 const store = createStore({
     modules: {

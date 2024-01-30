@@ -1,8 +1,8 @@
 {
-  "name": "vue3-simple-modal-form",
-  "version": "0.1.2",
-  "main": "./dist/vue3-simple-modal.umd.js",
-  "module": "./dist/vue3-simple-modal.es.js",
+  "name": "@ubrand/simple-modal-form-vue3",
+  "version": "1.0.0",
+  "main": "./dist/simple-modal-form-vue3.umd.js",
+  "module": "./dist/simple-modal-form-vue3.es.js",
   "style": "./dist/css/style.css",
   "storage": "./dist/storage/index.js",
   "files": [
@@ -17,7 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/skydraco/vue3-simple-modal-form.git"
   },
-  "author": "Denis",
+  "publishConfig":{
+    "registry":"https://npm.uniqom.ru"
+  },
+  "author": "Denis S.",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
